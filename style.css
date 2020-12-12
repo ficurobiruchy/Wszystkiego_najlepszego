@@ -1,3 +1,7 @@
+*{
+  overflow: hidden;
+}
+
 #outside {
   z-index: 1;
   position: absolute;
