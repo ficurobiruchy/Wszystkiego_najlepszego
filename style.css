@@ -1,0 +1,78 @@
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: beige;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: #E27F08;
+  font-family: Georgia;
+  font-size: 15pt;
+  text-align: center;
+}
+
+#outside-pic {
+  width: 150px;
+  height: 150px;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: #EAAC94;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#inside-title {
+  color: black;
+  font-family: Georgia;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 432px;
+  height: 324px;
+}
+
+#message {
+  color: black;
+  font-family: Georgia;
+  font-size: 14pt;
+  text-align: center;
+}
+
+button{
+    background: #874564;
+    border: 3px dashed goldenrod;
+    padding: 5px;
+    color: goldenrod;
+    box-shadow: 2px 2px 3px 4px #777;
+}
+
+button:hover{
+    background-color: #581937;
+    color: #fff;
+    box-shadow: 2px 2px 3px 4px #555;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
